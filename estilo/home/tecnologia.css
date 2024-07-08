@@ -1,0 +1,105 @@
+
+.tecnologia-bg{
+    background-color: var(--cor-11);
+    box-shadow: inset 0 80px  var(--cor-0), inset 0 -80px  var(--cor-0);
+
+    
+}
+
+.tecnologia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    color: var(--cor-5);
+
+}
+
+.tecnologia-conteudo{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.tecnologia-conteudo > span{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.tecnologia-conteudo > h2{
+    margin-bottom: 32px;
+}
+
+.tecnologia-conteudo > p{
+    margin-bottom: 20px;
+}
+
+.tecnologia a{
+    margin-bottom: 80px;
+}
+
+.tecnologia a::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+}
+
+.tecnologia a:hover{
+    color: var(--cor-0);
+}
+
+.tecnologia-vantagens{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tecnologia-vantagens img{
+    width: 24px;
+}
+
+.tecnologia-vantagens div{
+    display: grid;
+    gap: 8px;
+}
+
+.tecnologia > img{
+    
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+@media( max-width: 800px){
+    .tecnologia{
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia-bg{
+        box-shadow: initial;
+    }
+
+    .tecnologia-conteudo{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .tecnologia a {
+        margin-bottom: 60px;
+    }
+
+    .tecnologia > img{
+        display: none;
+    }
+}
+
+@media( max-width: 600px){
+    .tecnologia-vantagens{
+        grid-template-columns: 1fr;
+    }
+
+    .tecnologia-vantagens a::after{
+        margin-bottom: 4px;
+    }
+}
