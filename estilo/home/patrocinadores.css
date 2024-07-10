@@ -40,7 +40,7 @@
 
 @media (max-width: 800px){
     .patrocinadores{
-        margin-bottom: 60px;
+        padding-bottom: 60px;
     }
 
     .patrocinadores h2{
@@ -48,6 +48,10 @@
     }
     .patrocinadores ul{
         grid-template-columns: 1fr 1fr;
+    }
+
+    .patrocinadores li{
+        padding: 20px;
     }
 
     .patrocinadores li:nth-child(odd){

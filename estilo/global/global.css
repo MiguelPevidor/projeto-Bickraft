@@ -4,8 +4,8 @@ body{
     margin-bottom: 500px; /*apagar depois*/
 }
 
-h1,h2,h3,h4,ul,p{
-    margin: 0;
+h1,h2,h3,h4,ul,p,blockquote{
+    margin: 0px;
 }
 
 ul{
