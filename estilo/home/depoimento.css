@@ -57,3 +57,9 @@
         justify-self: center;
     }
 }
+
+@media(max-width: 1200px){
+    .depoimento img{
+        max-height: 520px;
+    }
+}
